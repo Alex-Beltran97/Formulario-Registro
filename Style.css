@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box; /* Esto es para que el tamaño de todo el archivo sea justo */
 }
 
 .form-register {
@@ -12,11 +12,37 @@
 	margin-top: 100px;
 	border-radius: 4px;
 	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000; /* el primer valor modifica el eje x, el segundo el y, el tercero la opacdad y el cuarto el color*/
 
 }
 .form-register h4 {
 	font-size: 22px;
 	margin-bottom: 20px;
+}
+.form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px; /* Esto centra de manera vertical*/
+}
+.form-register a {
+	color:white;
+	text-decoration: none; /* Esto es para quitar la linea del hipertexto*/
+}
+.form-register a:hover {
+	color:white;
+	text-decoration: underline; /* Esto subraya el texto*/
+}
+.form-register .botons {
+	width: 100%;
+	background: #1f53c5;
+	border:none; /* Esto quita el contorno del boton*/
+	padding: 12px;
+	color: white;
+	margin: 16px 0; /* Si le agregas un0 se devuleve un poco*/
+	font-size: 16px;
+
 }
 
 .controls {
