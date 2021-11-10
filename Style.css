@@ -4,6 +4,10 @@
 	box-sizing: border-box; /* Esto es para que el tamaño de todo el archivo sea justo */
 }
 
+body {
+	background-image: url("fondo.jpg"); /* Esto es para poner un fondos */
+}
+
 .form-register {
 	width: 400px; 
 	background: #24303c;
