@@ -6,6 +6,7 @@
 
 body {
 	background-image: url("fondo.jpg"); /* Esto es para poner un fondos */
+	background-size: cover;
 }
 
 .form-register {
